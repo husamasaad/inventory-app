@@ -17,7 +17,7 @@ const Items = () => {
       setFailedFetch(false)
       setLoading(true)
       try {
-        const response = await fetch('http://localhost:3500/products');
+        const response = await fetch('https://inventory-backend-khaki.vercel.app/products');
         if (response.ok) {
           const data = await response.json();
           setProductsArray(data);

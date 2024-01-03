@@ -13,7 +13,7 @@ const DeleteModal = () => {
     if (deleteModal.type === "product") {
       try {
         toast.loading('Just a second..')
-        const response = await fetch(`http://localhost:3500/products/${deleteModal.id}`, {
+        const response = await fetch(`https://inventory-backend-khaki.vercel.app/products/${deleteModal.id}`, {
           method: 'DELETE',
           headers: {
             'Content-Type': 'application/json',
@@ -37,7 +37,7 @@ const DeleteModal = () => {
     } else if (deleteModal.type === "employee") {
       try {
         toast.loading('Just a second..')
-        const response = await fetch(`http://localhost:3500/users/${deleteModal.id}`, {
+        const response = await fetch(`https://inventory-backend-khaki.vercel.app/users/${deleteModal.id}`, {
           method: 'DELETE',
           headers: {
             'Content-Type': 'application/json',

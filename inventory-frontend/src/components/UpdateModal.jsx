@@ -28,7 +28,7 @@ const UpdateModal = () => {
       }
       try {
         toast.loading('Just a second..')
-        const response = await fetch(`http://localhost:3500/products/${id}`, {
+        const response = await fetch(`https://inventory-backend-khaki.vercel.app/products/${id}`, {
           method: 'PATCH',
           headers: {
             'Content-Type': 'application/json',
@@ -68,7 +68,7 @@ const UpdateModal = () => {
       }
       try {
         toast.loading('Just a second..')
-        const response = await fetch(`http://localhost:3500/users/${id}`, {
+        const response = await fetch(`https://inventory-backend-khaki.vercel.app/users/${id}`, {
         method: 'PATCH',
         headers: {
           'Content-Type': 'application/json',

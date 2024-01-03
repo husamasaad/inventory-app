@@ -1,8 +1,9 @@
 
 
 const allowedOrigins = [
-  'http://localhost:3500',
-  'http://localhost:3000'
+  'https://inventory-backend-khaki.vercel.app',
+  'http://localhost:3000',
+  'https://inventory-frontend-mu.vercel.app/'
 ]
 
 module.exports = allowedOrigins

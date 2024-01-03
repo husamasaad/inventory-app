@@ -19,7 +19,7 @@ const CreateModal = () => {
     }
     try {
       toast.loading('Just a second..')
-      const response = await fetch('http://localhost:3500/products', {
+      const response = await fetch('https://inventory-backend-khaki.vercel.app/products', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -53,7 +53,7 @@ const CreateModal = () => {
     }
     try {
       toast.loading('Just a second..')
-      const response = await fetch('http://localhost:3500/users', {
+      const response = await fetch('https://inventory-backend-khaki.vercel.app/users', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

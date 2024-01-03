@@ -16,7 +16,7 @@ const Employees = () => {
       setFailedFetch(false)
       setLoading(true)
       try {
-        const response = await fetch('http://localhost:3500/users');
+        const response = await fetch('https://inventory-backend-khaki.vercel.app/users');
         const data = await response.json();
         if (Array.isArray(data)) {
           setEmployeesArray(data);
