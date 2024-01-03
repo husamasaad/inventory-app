@@ -14,9 +14,44 @@ html {
 
 body {
   min-height: 100vh;
-  background-color: #000;
-  color: whitesmoke;
-  display: grid;
-  place-content: center;
-  padding: 1rem;
+  background-color: #090220;
+  color: white;
+  position: relative;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.welcome-content {
+  background-color: #020d25;
+  opacity: 1;
+  text-align: center;
+  padding: 3rem;
+  width: 90vw;
+  max-width: 650px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.welcome-content h1 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+.welcome-content p {
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: 150%;
+  overflow: hidden;
+}
+.welcome-content > .add-btn {
+  width: fit-content;
+  margin: 2rem auto;
+}
+.welcome-content > p a {
+  color: #d2dffa;
+  text-decoration: underline;
+  transition: all .3s;
+  word-break: break-all;
+}
+.welcome-content > p a:hover {
+  color: #0a46c7;
+  text-decoration: none;
 }
