@@ -2,7 +2,7 @@
 
 ## Overview
 
-This Inventory Management App was developed as part of an internship assignment. It is designed to assist users in managing their inventory with basic operations such as adding, updating, and deleting products. The app also includes a stats page to display key inventory metrics.
+This Inventory Management App was developed as part of an internship assignment. It is designed to assist shops teams in managing their inventory with basic operations such as adding, updating, and deleting products.
 
 ## Features
 
